@@ -292,6 +292,13 @@
             <artifactId>jaxb-runtime</artifactId>
             <version>${jaxb-runtime.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.jacoco</groupId>
+            <artifactId>jacoco-maven-plugin</artifactId>
+            <version>0.8.6</version>
+        </dependency>  
+             
         <dependency>
             <groupId>javax.activation</groupId>
             <artifactId>javax.activation-api</artifactId>
@@ -302,18 +309,6 @@
 
     <!-- Other dependencies -->
 
-    <dependencies>
-        <!-- Other dependencies -->
-
-        <dependency>
-            <groupId>org.jacoco</groupId>
-            <artifactId>jacoco-maven-plugin</artifactId>
-            <version>0.8.6</version>
-        </dependency>
-
-        <!-- Other dependencies -->
-             
-    </dependencies>     
     <!-- Maven plugin versions are mentioned in order to guarantee the build reproducibility in the long term -->
     <build>
         <defaultGoal>install</defaultGoal>
